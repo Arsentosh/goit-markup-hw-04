@@ -94,6 +94,8 @@ span {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-nav {
@@ -173,7 +175,8 @@ span {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office.jpg);
-
+  max-width: 1440px;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -462,6 +465,8 @@ span {
 
 .footer-media {
   margin-left: 120px;
+  align-items: baseline;
+  margin-right: 120px;
 }
 
 .soc-media {
@@ -546,6 +551,20 @@ span {
 }
 
 .image-item:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.image-link {
+  display: block;
+}
+
+.image-link:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.image-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
