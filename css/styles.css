@@ -175,10 +175,11 @@ span {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office.jpg);
-  max-width: 1440px;
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 1440px;
 }
 
 .section.hero {
@@ -257,6 +258,16 @@ span {
 }
 
 .features-icon {
+  margin-bottom: 8px;
+}
+
+.fetures-cont-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
   margin-bottom: 8px;
 }
 
