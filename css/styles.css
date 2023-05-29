@@ -401,6 +401,10 @@ span {
   background-color: #404bbf;
 }
 
+.soc-icon {
+  fill: var(--cloud-color);
+}
+
 .soc-icon:hover {
   fill: var(--btn-color);
 }
@@ -471,6 +475,11 @@ span {
   display: flex;
   flex-direction: row;
   text-align: left;
+  align-items: baseline;
+}
+
+.title-par-footer {
+  margin-right: 120px;
 }
 
 .logo {
