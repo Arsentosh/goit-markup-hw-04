@@ -431,7 +431,7 @@ span {
 
 .customers-item {
   height: 88px;
-  width: calc((100% - 120px / 6));
+  width: calc((100% - 120px) / 6);
 }
 .customer-link {
   width: 100%;
