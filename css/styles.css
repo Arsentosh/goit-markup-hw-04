@@ -266,7 +266,6 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 264px;
   height: 112px;
   background-color: #f4f4fd;
   border-radius: 4px;
@@ -407,9 +406,9 @@ span {
   fill: var(--cloud-color);
 }
 
-.soc-icon:hover {
+/* .soc-icon:hover {
   fill: var(--btn-color);
-}
+} */
 
 /* -5-5-5-5-5-5-5-5-5-5-Customers */
 
