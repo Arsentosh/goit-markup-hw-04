@@ -529,11 +529,11 @@ span {
   margin-bottom: 16px;
 }
 
-.footer-links {
+/* .footer-links {
   display: flex;
   gap: 16px;
   justify-content: center;
-}
+} */
 
 .footer-links-list {
   display: flex;
