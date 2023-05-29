@@ -559,6 +559,10 @@ span {
   background-color: #31d0aa;
 }
 
+.footer-links-link:focus {
+  background-color: #31d0aa;
+}
+
 /* _$_$_$_$_$_$_$_$_$_$_ADDITIONAL INFO FOR PORTFOLIO */
 
 .sec-images {
