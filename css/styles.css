@@ -460,8 +460,6 @@ span {
 }
 
 .customer-icon {
-  width: 168px;
-  height: 88px;
   fill: currentColor;
 }
 
@@ -515,9 +513,7 @@ span {
 }
 
 .footer-media {
-  margin-left: 120px;
   align-items: baseline;
-  margin-right: 120px;
 }
 
 .soc-media {
